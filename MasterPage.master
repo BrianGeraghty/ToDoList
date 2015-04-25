@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register src="WebUserControl.ascx" tagname="WebUserControl" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrap">
+        <div id="topPan">
+            <a href="#">
+                <h1>To Do List</h1>
+            </a>
+
+            <p>A Brian Geraghty project</p>
+            <div id="topContactPan"></div>
+            <div id="topMenuPan">
+                <div id="topMenuLeftPan"></div>
+                <div id="topMenuMiddlePan">
+                    <ul>
+                        <li class="home">
+                            <uc1:WebUserControl ID="WebUserControl1" runat="server" />
+                        </li>
+                    </ul>
+                </div>
+                <div id="topMenuRightPan"></div>
+            </div>
+        </div>
+
+        <div id="bodyPan">
+            <div id="bodyLeftPan">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <br />
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Font-Names="Georgia" RenderingMode="Table" StaticDisplayLevels="3">
+                    </asp:Menu>
+                    <br />
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="bodyRightPan">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+            </div>
+        <div id="footermainPan">
+
+            <div id="footerPan">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+                <p class="copyright">©education zone. All right reserved.</p>
+                <ul class="templateworld"></ul>
+            </div>
+        </div>
+       
+    </form>
+</body>
+</html>

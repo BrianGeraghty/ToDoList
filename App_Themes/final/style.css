@@ -1,0 +1,55 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:url(images/mainbg.gif) 0 0 repeat-x #fff; color:#5E5E5E; font:13px/18px Arial, Helvetica, sans-serif;}
+div, p, ul, h2, h3, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+#wrap{
+    margin-left:auto;
+    margin-right:auto;
+    width:1280px;
+}
+
+/*----TOP PANEL----*/
+#topPan{width:90%; height:158px; position:relative; margin:0 auto; color:#fff; padding:0px;}
+#topPan h1{font-size:30px; position:absolute; top:23px; left:35px; color:white; }
+#topPan p{font-size:16px; padding:70px 0 0 43px;}
+
+#topContactPan{width:100%; height:51px; position:absolute; top:43px; }
+
+#topMenuPan{width:100%; height:16px; position:absolute; bottom:9px;}
+#topMenuLeftPan{width:5%; height:16px; float:left; background:url(images/menu-leftbg.gif) 0 0 no-repeat;}
+#topMenuMiddlePan{width:85%; height:16px; float:left; }
+
+#topMenuMiddlePan ul{width:100%; height:16px;}
+#topMenuMiddlePan ul li{width:100%; height:16px; float:left;}
+#topMenuMiddlePan ul li.home{background:#fff; color:#0574AF; text-decoration:none; font:10px/16px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-align:right; text-transform:uppercase;}
+
+#topMenuRightPan{width:10%; height:16px; float:left; background:url(images/menu-rightbg.gif) 0 0 no-repeat;}
+/*----/TOP PANEL----*/
+
+/*----BODY PANEL----*/
+#bodyPan{width:82%; position:relative; margin:0 auto; padding:25px 0 0;}
+
+/*----BODY LEFT PANEL----*/
+#bodyLeftPan{width:20%; min-width:150px; height:375px; float:left; border:1px solid #DADADA; background:#F3F3F3; color:#1A1A1A; padding:0 0 10px;}
+
+/*----/BODY LEFT PANEL----*/
+
+/*----BODY RIGHT PANEL----*/
+#bodyRightPan{width:75%; float:left; padding:12px 12px 12px 12px;}
+
+#bodyRightPan p{width:100%; float:left;}
+#bodyRightPan p span{background:#fff; color:#046598; font-weight:bold;}
+
+/*----/BODY RIGHT PANEL----*/
+
+/*----/BODY PANEL----*/
+/*----FOOTER PANEL----*/
+#footermainPan{height:60px; background:url(images/footerbg.gif) 0 0 repeat-x #fff; color:#010101; clear:both; padding:50px 0 0;}
+
+#footerPan{width:683px; position:relative; margin:0 auto; font-family:"Trebuchet MS",Arial, Helvetica, sans-serif}
+
+#footerPan p.copyright{width:204px; background:#F3F3F3; color:#04496D; position:absolute; top:20px; left:40px; font-size:12px;}
+
+#footerPan ul.templateworld{width:250px; background:#F3F3F3; color:#444; display:block; position:absolute; top:20px; left:40px; font-size:10px;}
+

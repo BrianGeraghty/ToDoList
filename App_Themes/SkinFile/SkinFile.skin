@@ -1,0 +1,15 @@
+﻿
+<asp:GridView runat="server" SkinId="gridviewSkin" 
+    HeaderStyle-BackColor="#F3F3F3"
+    AlternatingRowStyle-BackColor="White" 
+    RowStyle-HorizontalAlign="Center"
+    AlternatingRowStyle-HorizontalAlign="Center"
+/>
+
+
+<asp:ListView runat="server" SkinId="listviewSkin" 
+    HeaderStyle-BackColor="#F3F3F3"
+    AlternatingRowStyle-BackColor="White" 
+    RowStyle-HorizontalAlign="Center"
+    AlternatingRowStyle-HorizontalAlign="Center"
+/>
